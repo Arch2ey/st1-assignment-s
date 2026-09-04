@@ -1,0 +1,1 @@
+Comparison is found in the stage 1 student lab hand out which is located in the folder week 4

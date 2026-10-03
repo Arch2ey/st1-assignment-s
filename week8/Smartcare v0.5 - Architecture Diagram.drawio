@@ -1,0 +1,83 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="SV_Nyik33V-bGXPExdqm">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-10" edge="1" parent="1" source="gmYljEzOaD0Dklu2JRPx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gmYljEzOaD0Dklu2JRPx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-11" connectable="0" parent="gmYljEzOaD0Dklu2JRPx-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="uses" vertex="1">
+          <mxGeometry relative="1" x="-0.0743" y="-2" as="geometry">
+            <mxPoint x="22" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-19" connectable="0" parent="gmYljEzOaD0Dklu2JRPx-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="depends on the abstraction" vertex="1">
+          <mxGeometry relative="1" x="0.2914" y="-5" as="geometry">
+            <mxPoint x="75" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Presentation&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;presentation/cli.py&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-7" edge="1" parent="1" source="gmYljEzOaD0Dklu2JRPx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gmYljEzOaD0Dklu2JRPx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-14" connectable="0" parent="gmYljEzOaD0Dklu2JRPx-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="uses" vertex="1">
+          <mxGeometry relative="1" x="-0.3141" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Service&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;services/appointment_service.py&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-9" edge="1" parent="1" source="gmYljEzOaD0Dklu2JRPx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="gmYljEzOaD0Dklu2JRPx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Repository&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;repositories/appointment_repository.py&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;abstracts&amp;gt;&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="600" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Domain&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;domain/model.py&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="25" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-6" edge="1" parent="1" source="gmYljEzOaD0Dklu2JRPx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#4D4D4D,#FFFFFF);" target="gmYljEzOaD0Dklu2JRPx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-13" connectable="0" parent="gmYljEzOaD0Dklu2JRPx-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="uses (type only)" vertex="1">
+          <mxGeometry relative="1" x="0.0764" y="1" as="geometry">
+            <mxPoint x="3" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-8" edge="1" parent="1" source="gmYljEzOaD0Dklu2JRPx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="gmYljEzOaD0Dklu2JRPx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-12" connectable="0" parent="gmYljEzOaD0Dklu2JRPx-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="implements" vertex="1">
+          <mxGeometry relative="1" x="-0.0133" as="geometry">
+            <mxPoint x="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Persistence&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;persistence/in_memory_&lt;/div&gt;&lt;div&gt;appointment&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;_repository.py&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="600" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Dependency direction&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="55" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="590" as="sourcePoint" />
+            <mxPoint x="305" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Presentation -&amp;gt; Service -&amp;gt; Domain&lt;div&gt;Persistence -&amp;gt; Repository abstraction (implements)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="295" x="50" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Composition root: presentation/cli.py is the only file that imports BOTH the abstraction and the concrete persistence class, and wires them together. Service imports the Repository abstract only - never persistence directly.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="305" x="277.5" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="gmYljEzOaD0Dklu2JRPx-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Domain depends on nothing else in the package" vertex="1">
+          <mxGeometry height="30" width="200" x="45" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
